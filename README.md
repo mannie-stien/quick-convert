@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# QuickConvert
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![QuickConvert Logo](public/logo.png)
 
-## Available Scripts
+**QuickConvert** is a powerful, all-in-one conversion tool designed to make your life easier. Whether you need to convert time zones, currencies, or units, QuickConvert has you covered. It’s fast, intuitive, and works seamlessly across devices.
 
-In the project directory, you can run:
+👉 [Live Demo](https://quickconvert.app)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Time Zone Converter**: Convert time zones effortlessly.
+- **Currency Converter**: Get real-time currency exchange rates.
+- **Unit Converter**: Convert between various units of length, weight, volume, and temperature.
+- **Dark Mode**: Switch between light and dark themes for better readability.
+- **Drag-and-Drop Interface**: Reorder tools to suit your workflow.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Why QuickConvert?
 
-### `npm run build`
+- **All-in-One Solution**: No need to switch between multiple tools.
+- **User-Friendly**: Simple and intuitive interface.
+- **Fast and Accurate**: Real-time conversions with minimal delay.
+- **Responsive Design**: Works flawlessly on desktop, tablet, and mobile.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Use
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Time Zone Converter**:
+   - Select the "From" and "To" time zones.
+   - Enter the time you want to convert.
+   - View the converted time instantly.
 
-### `npm run eject`
+2. **Currency Converter**:
+   - Enter the amount you want to convert.
+   - Select the "From" and "To" currencies.
+   - View the converted amount in real-time.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Unit Converter**:
+   - Choose the category (e.g., length, weight, volume, temperature).
+   - Enter the value you want to convert.
+   - Select the "From" and "To" units.
+   - View the converted value instantly.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Frontend**: React, Tailwind CSS
+- **State Management**: React Context API
+- **Drag-and-Drop**: `@dnd-kit/core`
+- **APIs**:
+  - Time Zone: WorldTimeAPI
+  - Currency: ExchangeRate-API
+- **Deployment**: Vercel
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run QuickConvert locally, follow these steps:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/quickconvert.git

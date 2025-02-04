@@ -75,12 +75,12 @@ function App() {
           {/* Logo */}
           <img
             src={logo} // Path to your logo in the public folder
-            alt="QuickConvert Logo"
+            alt="UniConvert Logo"
             className="w-10 h-10 hover:scale-110 transition-transform duration-200"
           />
           {/* App Name */}
           <h1 className="text-3xl font-semibold text-indigo-600 dark:text-indigo-400">
-            QuickConvert
+            UniConvert
           </h1>
           
         </div>

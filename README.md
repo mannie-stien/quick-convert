@@ -1,10 +1,10 @@
-# QuickConvert
+# UniConvert
 
-![QuickConvert Logo](public/logo.png)
+![UniConvert Logo](public/logo.png)
 
-**QuickConvert** is a powerful, all-in-one conversion tool designed to make your life easier. Whether you need to convert time zones, currencies, or units, QuickConvert has you covered. It’s fast, intuitive, and works seamlessly across devices.
+**UniConvert** is a powerful, all-in-one conversion tool designed to make your life easier. Whether you need to convert time zones, currencies, or units, UniConvert has you covered. It’s fast, intuitive, and works seamlessly across devices.
 
-👉 [Live Demo](https://quickconvert.app)
+<!-- 👉 [Live Demo](https://UniConvert.app) -->
 
 ---
 
@@ -18,7 +18,7 @@
 
 ---
 
-## Why QuickConvert?
+## Why UniConvert?
 
 - **All-in-One Solution**: No need to switch between multiple tools.
 - **User-Friendly**: Simple and intuitive interface.
@@ -61,8 +61,8 @@
 
 ## Installation
 
-To run QuickConvert locally, follow these steps:
+To run UniConvert locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/quickconvert.git
+   git clone https://github.com/yourusername/UniConvert.git
